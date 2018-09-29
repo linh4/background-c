@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Linh Loves Cats",
+  "description": "Cat background",
+  "version": "1",
+  "author": "Linh Huynh",
+
+  "icons": {
+    "128": "cat.png"
+  },
+
+  "browser_action":{
+    "default_title": "Enjoy the cat",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": ["activeTab"]
+}
